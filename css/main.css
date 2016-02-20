@@ -65,6 +65,10 @@ h3 {
 	background-image: url(../images/guitar_fingering.jpg);
 }
 
+.contact-section {
+	background-image: url(../images/typewriter.jpg);
+}
+
 .heading {
 	display: flex;
 	align-items: center;

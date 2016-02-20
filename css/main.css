@@ -1,7 +1,5 @@
-@font-face {
-    font-family: Montserrat;
-    src: url('../font/Montserrat-Bold.ttf');
-}
+
+
 
 html, body {
 	width: 100%;
@@ -15,6 +13,41 @@ section {
 	height: 100%;
 }
 
+/* IMPORT FONTS AND DEFINE STYLES */
+
+@font-face {
+    font-family: Montserrat;
+    src: url('../font/Montserrat-Bold.ttf');
+}
+
+h1, h2, h3, h4, h5, h6, ul, li {
+	font-family: Montserrat, Courier;
+	text-align: center;
+
+}
+
+
+h1 {
+	font-size: 60px;
+	margin-bottom: 0;
+}
+
+h3 {
+	font-size: 30px;
+	margin-top: 0;
+}
+
+.home-text {
+	color: white;
+	position: absolute;
+	top: 28%;
+	width: 100%;
+}
+
+.about-text {
+	padding-top: 100px;
+}
+
 /* SECTION BACKGROUNDS */
 
 .home-section {
@@ -25,33 +58,8 @@ section {
 	background-size: cover;
 }
 
-/* HOME SECTION CONTENT */
 
-.home-text {
-	color: white;
-	position: absolute;
-	text-align: center;
-	top: 28%;
-	width: 100%;
-}
 
-h1 {
-	font-size: 60px;
-	font-family: Montserrat, Courier;
-	margin-bottom: 0;
-}
-
-h3 {
-	font-size: 30px;
-	margin-top: 0;
-}
-
-/* ABOUT SECTION CONTENT */
-
-.about-text {
-	text-align: center;
-	padding-top: 100px;
-}
 
 
 /* NAVIGATION BAR */
@@ -79,7 +87,6 @@ ul {
 	margin-top: 0;
 	margin-bottom: 0;
 	padding: 0;
-	text-align: center
 }
 
 li {
@@ -99,26 +106,50 @@ a {
 /* MEDIA QUERIES - RESPONSIVE SIZING */
 
 /* Custom, iPhone Retina */ 
-@media only screen and (min-width : 320px) {
+@media only screen and (max-width : 320px) {
 
+	h1 {
+		font-size: 30px;
+	}
+
+	h3 {
+		font-size: 16px;
+	}
 }
 
 /* Extra Small Devices, Phones */ 
-@media only screen and (min-width : 480px) {
-     
+@media only screen and (max-width : 480px) {
+
+	h1 {
+		font-size: 36px;
+	}
+
+	h3 {
+		font-size: 20px;
+	}	
 }
 
 /* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
-  
+@media only screen and (max-width : 768px) {
+	.home-section {
+		background-image: url(../images/bw_puppy_crop_740.jpg);
+	}
+
+	h1 {
+		font-size: 48px;
+	}
+
+	h3 {
+		font-size: 26px;
+	}
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
+@media only screen and (max-width : 992px) {
       
 }
 
 /* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
+@media only screen and (max-width : 1200px) {
     
 }

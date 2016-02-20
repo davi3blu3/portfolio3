@@ -1,16 +1,9 @@
 
-
-
 html, body {
 	width: 100%;
 	height: 100%;
 	margin: 0;
 	padding: 0;
-}
-
-section {
-	width: 100%;
-	height: 100%;
 }
 
 /* IMPORT FONTS AND DEFINE STYLES */
@@ -23,12 +16,12 @@ section {
 h1, h2, h3, h4, h5, h6, ul, li {
 	font-family: Montserrat, Courier;
 	text-align: center;
-
 }
 
 
 h1 {
 	font-size: 60px;
+	margin-top: 0;
 	margin-bottom: 0;
 }
 
@@ -44,13 +37,15 @@ h3 {
 	width: 100%;
 }
 
-.about-text {
-	padding-top: 100px;
+.header-title {
+	color: white;
+	position: relative;
 }
 
 /* SECTION BACKGROUNDS */
 
 .home-section {
+	height: 100%;
 	background-image: url(../images/bw_puppy_crop_1200.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -58,8 +53,27 @@ h3 {
 	background-size: cover;
 }
 
+.about-section {
+	background-image: url(../images/beach_sunset.jpg);
+}
 
+.code-section {
+	background-image: url(../images/lines_of_code.jpg);
+}
 
+.skills-section {
+	background-image: url(../images/guitar_fingering.jpg);
+}
+
+.heading {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 33%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;	  
+}
 
 
 /* NAVIGATION BAR */

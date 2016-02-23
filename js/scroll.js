@@ -28,4 +28,16 @@ $(window).scroll(function() {
 
 });
 
+$(document).ready(function() {
 
+    // HOVER EFFECT ON PORTFOLIO IMAGES
+
+    $('.thumbnail').hover(
+        function(){
+            $(this).find('.caption').fadeIn(700) //.slideDown(300); //.fadeIn(250)
+        },
+        function(){
+            $(this).find('.caption').fadeOut(700) //.slideUp(300); //.fadeOut(250)
+        }
+    ); 
+});

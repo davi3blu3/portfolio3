@@ -58,7 +58,7 @@ h3 {
 }
 
 .code-section {
-	background-image: url(../images/lines_of_code.jpg);
+	background-image: url(../images/lines_of_code2.jpg);
 }
 
 .skills-section {
@@ -120,7 +120,30 @@ a {
 	text-decoration: none;
 }
 
+/* PORTFOLIO PIECES */
 
+.thumbnail {
+    position:relative;
+    overflow:hidden;
+    background: rgb(255, 255, 255);
+    border: 1px solid gray;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+ 
+.caption {
+    position:absolute;
+    top:0;
+    right:0;
+    background:rgba(0, 0, 0, 0.4);
+    width:100%;
+    height:100%;
+    padding:5%;
+    display: none;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+}
 
 /* MEDIA QUERIES - RESPONSIVE SIZING */
 

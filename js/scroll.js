@@ -16,7 +16,7 @@ $(window).scroll(function() {
       
       // past home section, scroll direction affects navbar appearance
       if (currentScroll > previousScroll) {
-        $('nav').fadeOut(1600);
+        $('nav').fadeOut(1200);
       } else {
         $('nav').fadeIn('slow');
       }
@@ -39,5 +39,11 @@ $(document).ready(function() {
         function(){
             $(this).find('.caption').fadeOut(700) //.slideUp(300); //.fadeOut(250)
         }
-    ); 
+    );
+
+    
+    $('.ham').on("click", function() {
+      $('.toppings').toggle();
+    });
+
 });

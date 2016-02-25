@@ -14,7 +14,7 @@ $(window).scroll(function() {
       $('nav').removeClass("nav-bottom");
       $('nav').addClass("nav-sticky");
       
-      // past home section, scroll direction affects navbar appearance
+      // past home section, navbar fades in/out based on scroll direction
       if (currentScroll > previousScroll) {
         $('nav').fadeOut(1200);
       } else {

@@ -165,6 +165,20 @@ a:hover {
     z-index:2;
 }
 
+.contact-row {
+	text-align: center;
+}
+
+#portrait {
+	border: 1px solid gray;
+	padding: 5px;
+	margin: 20px;
+}
+
+.block {
+	display: block;
+}
+
 /* MEDIA QUERIES - RESPONSIVE SIZING */
 
 /* Custom, iPhone Retina */ 

@@ -6,6 +6,7 @@ html, body {
 	padding: 0;
 }
 
+
 /* IMPORT FONTS AND DEFINE STYLES */
 
 @font-face {
@@ -167,12 +168,14 @@ a:hover {
 
 /* CONTACT SECTION */
 
-.contact-row {
+.contact-element {
 	text-align: center;
+	margin-bottom: 50px;
 }
 
 #portrait {
 	border: 1px solid gray;
+	background-color: white;
 	padding: 5px;
 	margin: 20px;
 }
@@ -183,10 +186,31 @@ a:hover {
 
 .contact-btn {
 	font-size: 1.5em;
-	border: 1px solid gray;
+	border: 1px solid #162455;
+	background-color: #A9B2CE;
+	color: #162455;
 	padding: 8px;
 	margin: 30px 0 5px 0;
 	min-width: 200px;
+}
+
+.contact-btn:hover {
+	background-color: #7783AB;
+	color: #162455;
+}
+
+footer {
+	background-color: #505F90;
+/*	display: sticky;
+*/
+}
+
+#copyright {
+
+	position: relative;
+	bottom: 20px;
+	color: white;
+	clear: both;
 }
 
 /* MEDIA QUERIES - RESPONSIVE SIZING */

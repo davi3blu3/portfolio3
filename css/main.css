@@ -189,6 +189,7 @@ a:hover {
 	color: white;
 	padding: 5px;
 	min-width: 100px;
+	height: 42px;
 	display: inline-block;
 }
 

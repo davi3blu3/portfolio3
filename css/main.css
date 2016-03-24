@@ -163,6 +163,12 @@ a:hover {
     z-index:2;
 }
 
+/* SKILLS SECTION */
+ .skills {
+ 	display: block;
+ }
+
+
 /* CONTACT SECTION */
 
 .contact-element {
